@@ -1,13 +1,12 @@
-$blueprint_grid_columns: 12
-$blueprint_grid_width: 70px
-$blueprint_grid_margin: 10px
+// Imports -------------------------------------------------------------------
 
-$font_color: #333
+@import susy
 
-@import compass/reset
-@import compass/utilities
-@import blueprint
+// Grid ----------------------------------------------------------------------
 
+$total-cols: 12
+$col-width: 4em
+$gutter-width: 1em
+$side-gutter-width: $gutter-width
 
-.body
-  +column(3)
+$show-grid-backgrounds: true

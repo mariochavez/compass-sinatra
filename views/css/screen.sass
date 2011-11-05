@@ -1,10 +1,14 @@
-@import base.sass
+// Imports -------------------------------------------------------------------
 
-+blueprint-typography
-+blueprint-utilities
-+blueprint-grid
-+blueprint-debug("/images/grid.png")
-+blueprint-interaction
-+blueprint-form
+@import base
 
-@import mockup.sass
+/* Layout ------------------------------------------------------------------
+
+.container
+  +container
+  +susy-grid-background
+
+aside
+  @include columns(3,9)
+  @include omega(9)
+
