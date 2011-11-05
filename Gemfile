@@ -1,7 +1,6 @@
-source :rubygems
-
-gem "sinatra", "~>1.1"
-gem "compass", "~>0.10"
+gem "sinatra"
+gem "haml"
+gem "compass"
 gem "thin"
 gem "thor"
 gem "rack-test"
