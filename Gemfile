@@ -1,6 +1,7 @@
 gem "sinatra"
 gem "haml"
 gem "compass"
+gem "compass-susy-plugin"
 gem "thin"
 gem "thor"
 gem "rack-test"

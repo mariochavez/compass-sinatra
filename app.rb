@@ -12,7 +12,7 @@ set :haml, :format => :html5 # default Haml format is :xhtml
 enable :logging
 
 configure do
-  Compass.add_project_configuration(File.join(Sinatra::Application.root, 'config', 'compass.config'))
+  Compass.add_project_configuration(File.join(Sinatra::Application.root, 'config.rb'))
 end
 
 # at a minimum, the main sass file must reside within the ./views directory. here, we create a ./views/css directory where all of the sass files can safely reside.
