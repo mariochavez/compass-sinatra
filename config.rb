@@ -3,7 +3,9 @@ require 'susy'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "public/css"
+
+# we don't want to create it in sinatra dir, because then sinatra will just serve it, it will not regenerate it each time
+#css_dir = "public/css"
 http_stylesheets_path = "/css"
 sass_dir = "views/css"
 images_dir = "public/images"
