@@ -1,14 +1,17 @@
 This app is a simple starting point for those wanting to explore compass with sinatra.
 
 Usage:
------
+------
 Clone this project:
+
     git checkout https://rubycut@github.com/rubycut/compass-sinatra.git
 
 Prepare dependencies:
+
     bundle install
 
 In separate window, run compass which will automatically rebuild your css:
+
     compass watch
 
 Run this app:
