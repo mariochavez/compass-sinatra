@@ -3,3 +3,4 @@
 .sass-cache
 .bundle
 public/css
+.yardoc

@@ -20,6 +20,8 @@ Start playing, important files to play with:
 * views/index.haml
 * views/css/_base.sass    <--- Grid options
 * views/css/screen.sass    <--- Layout
+
+
 susy is ready:
 
 
