@@ -32,9 +32,9 @@ This repo bundles [susy]("http://susy.oddbird.net/") plugin together with compas
 
 ### Compass
 
-Sass basically allows you to write nicer css, it supports variables and some other stuff.
+[Sass]("http://sass-lang.com/") basically allows you to write nicer css, it supports variables and some other stuff.
 
-But compass, goes a step further: "The compass core framework is a design-agnostic framework that provides common code that would otherwise be duplicated across other frameworks and extensions."
+But [compass]("http://compass-style.org/") , goes a step further: "The compass core framework is a design-agnostic framework that provides common code that would otherwise be duplicated across other frameworks and extensions."
 
 This means it it gives you sass tools so you don't have to start from scratch on every new project and duplicate code. Most important of all, compass also supports plugins.
 
@@ -54,7 +54,7 @@ screen.css is where you define placement of your blocks into grid
 
 ### Sinatra full auto
 
-When you start sinatra app, it will generate css on the fily, see app.rb for details. Basically it just load Compass before calling sass method.
+When you start sinatra app, it will generate css on the fly, see app.rb for details. Basically it just load Compass before calling sass method.
 
 ### Manual creation
 
