@@ -1,7 +1,7 @@
 This app is a simple starting point for those wanting to explore compass with sinatra.
 
-Usage:
-------
+Quick start:
+-----
 Clone this project:
 
     git checkout https://rubycut@github.com/rubycut/compass-sinatra.git
@@ -27,9 +27,17 @@ Start playing, important files to play with:
 * views/css/screen.sass    <--- Layout
 
 
-susy is ready:
+Susy
+----
+This repo bundles [susy]("http://susy.oddbird.net/") plugin together with compass. 
 
 
-todo: compass watch auto reloader
+What is going on
+----
+Sass basibally allows you to write nicer css, it supports variable and some other stuff.
 
-todo: write docs
+But compass, goes a step further: "The compass core framework is a design-agnostic framework that provides common code that would otherwise be duplicated across other frameworks and extensions."
+
+This means it it gives you sass tools so you don't have to start from scratch on every new project and duplicate code. Most important of all, compass also supports plugins.
+
+
