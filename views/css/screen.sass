@@ -8,7 +8,13 @@
   +container
   +susy-grid-background
 
-aside
-  @include columns(3,9)
-  @include omega(9)
+.aside
+  +columns(3,9)
+  +omega(9)
 
+.body
+  @include columns(3,9)
+
+.footer
+  +full
+  +pad(3,3)
