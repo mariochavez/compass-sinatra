@@ -12,7 +12,7 @@ In separate window, run compass which will automatically rebuild your css:
     compass watch
 
 Run this app:
-    rackup
+  rackup
 
 Point your browser to http://localhost:9292/
 
